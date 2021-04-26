@@ -40,5 +40,4 @@ $ quasar dev
 - Uso do vue com typescript.
 
 ## Entrega
-
-Após as atividades termindas enviar o repositório para wendell.vieira@qwst.co
+Para desenvolver o teste fork o repositório para sua conta, após as atividades termindas enviar o novo repositório para wendell.vieira@qwst.co
