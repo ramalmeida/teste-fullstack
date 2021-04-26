@@ -13,12 +13,12 @@
 - É necessário que seja possível fitar os estados, cidades e pontos turísticos sendo que os pontos turísticos serão filtrados dentro do campo de pesquisa da cidade, conforme a tela Home.
 - O usuário terá a possibilidade de excluir os estados/cidades através de um botão com o ícone de lixeira que só se mostrará ao evento hover representado em Home, ao tentar excluir deverá ser exibido uma mensagem confirmando a ação.
 - Na relação de estados deverá conter um contador com todas as cidades de cada estado, e na lista de cidades o contador referenciara os pontos turísticos de cada cidade.
-- Ao clicar será exibido ao usuário uma tela onde o mesmo poderá entrar com nome do estado e abreviação (UF).
-- No modal de criação de cidades encontrasse um campo com o nome da cidade e uma lista com a possibilidade de gerenciar os pontos turísticos.
+- Ao clicar no botão "Novo estado" será exibido ao usuário um modal onde o mesmo poderá entrar com nome do estado e abreviação (UF).
+- Ao clicar no botão de "Nova cidade" será exibido um modal de criação de cidades, onde encontrasse um campo com o nome da cidade e uma lista com a possibilidade de gerenciar os pontos turísticos.
 
 ## Como executar o teste.
 
-> No teste encontram-se duas pastas da raiz "api" e "app", na pasta "api" encontra-se o setup de um projeto usando [nest.js](https://nestjs.com/), já em "app" encontra-se o setup de um projeto com o framework vue.js o [quasar](https://quasar.dev/)
+> No teste encontram-se duas pastas na raiz "api" e "app", na pasta "api" encontra-se o setup de um projeto usando [nest.js](https://nestjs.com/), já em "app" encontra-se o setup de um projeto com o framework vue.js o [quasar](https://quasar.dev/)
 
 Para rodar a api usa-se o comando
 
