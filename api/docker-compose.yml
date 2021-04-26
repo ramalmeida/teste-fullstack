@@ -1,0 +1,30 @@
+version: '3.7'
+
+services:
+  mongodb:
+    image: mongo
+    volumes:
+      - mongodb-data:/data/db
+    ports:
+      - 27017:27017
+    networks:
+      - webnet
+
+  backend:
+    build:
+      context: ./
+      target: development
+    volumes:
+      - ${PWD}/src:/app/src
+    ports:
+      - 3000:3000
+    networks:
+      - webnet
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb-data:
+
+networks:
+  webnet:
