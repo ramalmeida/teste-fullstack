@@ -3,7 +3,7 @@
 ## Sobre
 
 - O projeto consiste em um cadastro de pontos turísticos por cidades, estas agrupadas por estados.
-- O projeto deverá seguir o mais fidedigno possível o [design](https://xd.adobe.com/view/89f9a967-24a1-4816-93dd-531b6cee3b26-dcaa/grid)
+- O projeto deverá seguir o mais fidedigno possível ao [design](https://xd.adobe.com/view/89f9a967-24a1-4816-93dd-531b6cee3b26-dcaa/grid)
 - O projeto terá a duração de 3 dias a partir da data de entrega.
 - Será aceito entregas parciais.
 
